@@ -49,6 +49,14 @@ Yes. The blocks are for proving that transactions existed at a particular time. 
   * Safer & Secure Ecosystem 
   * Minting 
 
+# what the mean of address in blockchain(as aspect of bitcoin)?
+These are usually used to receive and send transactions on the network. Associate degree address may be a string of alphanumerical characters.
+
+# If wrong address will be putted as recipient address. what happen?
+Whenever you paste an address in your bitcoin wallet, it checks the prefix and calculates the checksum. If it doesn’t match, it rejects the address. This makes it impossible to send funds to a wrong address due to a typing error.
+
+# What is altcoin?
+An altcoin is any digital cryptocurrency similar to Bitcoin. The term is said to stand for “alternative to bitcoin” and is used describe any cryptocurrency that is not a Bitcoin.
  
 # What is encryption? What is its role in Blockchain?
 Data security always matters. Encryption is basically an approach that helps organizations to keep their data secure. The encrypted data is encoded or changed up to some extent before it is sent out of a network by the sender and only authorized parties can access that information.In Blockchain, this approach is useful because it simply adds more to the overall security and authenticity of blocks and helps to keep them secure.
@@ -337,3 +345,31 @@ A shared, permissioned ledger is the append-only system of record (SOR) and sing
 A consensus protocol agreed to by all participating members of the business network ensures that the ledger is updated only with network-verified transactions.
 Cryptography ensures tamper-proof security, authentication, and integrity of transactions.
 Smart contracts encapsulate participant terms of agreements for the business that takes place on the network; they are stored on the validating nodes in the blockchain and triggered by transactions.
+
+# what is ASIC miner?
+An Application Specific Integrated(ASIC) miner is a device that is designed for the sole purpose of crypto mining only. Generally, each ASIC miner is constructed to mine a specific algorithm(e.g.SHA256,..). So, A SHA256 ASIC miner can mine only that particualar algorithm depdendent coin only.
+
+# what is block heights?
+Sequential number of block that already connected to blockchain network is called an blockheight.
+
+# what is an genesis block height?
+it will be 0. eventually intial block of blockchain will be called an genesis block and it will be always 0.
+
+# what is block reward?
+Block reward means predefined amount of coin and transaction cost of that particular block. In bitcoin it is 12.5 as of now in november 2019. it will be halfed at every 210000 successfull block mining.
+
+# On which algorithm bitcoin blockchain works?
+In SHA256
+
+# what is consensus algorithm?
+A consensus algorithm is a procedure through which all the peers of the Blockchain network reach a common agreement about the present state of the distributed ledger. In this way, consensus algorithms achieve reliability in the Blockchain network and establish trust between unknown peers in a distributed computing environment. Essentially, the consensus protocol makes sure that every new block that is added to the Blockchain is the one and only version of the truth that is agreed upon by all the nodes in the Blockchain.
+
+# Types of consensus algorithm?
+below is some of most popular
+* PoW(proof of work)- Bitcoin, Ethereum(soon to PoS), Litecoin,..
+* PoS(proof of stack)- Peer, Decred,..
+* DPoS(delegated proof of stake)- eos,steemit,..
+* PoA (proof of authority)- ethereum kovan testnet
+* BFT (Byzantine Fault Tolerance)- Hyperledger, Stellar, Ripple,.
+and many more like PBFT,FBA, DAGs,..
+
