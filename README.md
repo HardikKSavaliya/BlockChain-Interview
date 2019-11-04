@@ -71,63 +71,34 @@ An altcoin is any digital cryptocurrency similar to Bitcoin. The term is said to
 # What is encryption? What is its role in Blockchain?
 Data security always matters. Encryption is basically an approach that helps organizations to keep their data secure. The encrypted data is encoded or changed up to some extent before it is sent out of a network by the sender and only authorized parties can access that information.In Blockchain, this approach is useful because it simply adds more to the overall security and authenticity of blocks and helps to keep them secure.
 
-# How does a block is recognized in the Blockchain approach?
-Every block in this online ledger basically consists of a hash pointer which acts as a link to the block which is prior to it, transaction data and in fact a stamp of time.
-
 # Is it possible to modify the data once it is written in a block?
-No, it’s not possible to do so. In case any modification is required, the organization simply has to erase the information from all other blocks too. It is because of no other reason than this, data must be given the extreme care of while using this approach.
+No, it’s not possible to do so. In case any modification is required, the organization simply has to erase the information from all other blocks too.
 
 # What are Block Identifiers?
 In Blockchain, blocks can be identified by the block header hash and the block height.
 
-# Is it possible in Blockchain to remove one or more block from the networks?
-Yes, it can be done. There are times when only a specific portion of this online ledger is to be considered. With the help of default options and filters, this can easily be done without making a lot of efforts.
-
 # What exactly do you know about the security of a block?
-Well, a block or the entire blockchain is protected by a strong cryptographic hash algorithm. Each block has a unique hash pointer. Any modification in the block constituents will result in the change in the hash identifier of the block.  Therefore, it offers an excellent level of security. Thus, one needs not to worry about the safety as well as the security of data that is present in a block.
+Well, a block or the entire blockchain is protected by a strong cryptographic hash algorithm. Each block has a unique hash pointer. Any modification in the block constituents will result in the change in the hash identifier of the block.  Therefore, it offers an excellent level of security.
 
 # What are Merkle trees? How important are Merkle trees in Blockchains?
-Merkle Tree also known as ‘hash tree’ is a data structure in cryptography in which each leaf node is a hash of a block of data, and each non-leaf node is a hash of its child nodes.Merkle tree-top blockchain interview questions-edureka
-
-The benefit of using the Merkle Tree in blockchain is that instead of downloading every transaction and every block, a “light client” can only download the chain of block headers.
-
-Also, if someone needs to verify the existence of a specific transaction in a block, then he doesn’t have to download the entire block. Downloading a set of a branch of this tree which contains this transaction is enough. We check the hashes which are just going up the branch (relevant to my transaction). If these hashes check out good, then we know that this particular transaction exist in this block.
-
-# What is a ledger? Is Blockchain an incorruptible ledger?
-Blockchain is considered incorruptible. Any ill-intentioned individual acting alone is powerless. “To take over the network, an attacker would have to control more than 50 percent of its total computing power,” Augier explains. “We hope that’s a theoretical scenario, but we can’t be sure. Should it happen, the individual would take every precaution to avoid being noticed.” Not to mention the energy required to power the computers needed for the blockchain system to work.
+Named after Ralph Merkle,Merkle Tree also is a data structure in cryptography in which each leaf node is a hash of a block of data, and each non-leaf node is a hash of its child nodes. 
 
 # How is a blockchain ledger different from an ordinary one?
-
 The first and in fact the prime difference is Blockchain is a digital ledger that can be decentralized very easily. The chances of error in this approach are far less than that in an ordinary ledger. An ordinary ledger is what that is prepared by hands or by human efforts while the Blockchain performs all its tasks automatically. You just need to configure it in a proper manner and by following all the guidelines.
 
 # What type of records can be kept in a Blockchain? Is there any restriction on same?
 There is no restriction on keeping records of any type in the Blockchain approach. Industries are using Blockchain for securing all types of records.
 
 The common types of records (to name a few) that can be kept on the Blockchains are:
+* Records of medical transactions
+* Identity management
+* Transaction processing
+* Business transactions,
+* Management activities
+* Documentation
 
-Records of medical transactions
-Identity management
-Transaction processing
-Business transactions,
-Management activities
-Documentation
 # A distributed digital ledger is used for recording transaction in Blockchain. What does the system rely on?
 The system relies on the network servicing protocol and the nodes of the network.
-
-# What makes block unique?
-Each block has its own has a value attached to it. They can be identified with the help of block height and block header hash value.
-
-# How does the security of a block works?
-A block is the most secure part of a blockchain. A cryptographic hash algorithm protects it. The block also consists of a distinctive hash pointer which adds more security to the block. If the value within a block is changed, the hash value will also change. This is a security identifier and provides a reasonable level of security to the whole blockchain. Also, hackers need to know the hash key of the previous block even to attempt to make changes to the block information.
-
-# What are the types of blockchain? Explain the types in short
-There are three types of the blockchain.
-Private: Private blockchain works in a closed ecosystem and is set to permissioned. This means that no outsider can join or know the activities within the private blockchain.
-Public: Public blockchain works in an open ecosystem where anyone can join and do transactions.
-Consortium: Consortium blockchain is semi-decentralized in nature.
-
-# What is the difference between private and public blockchain?
-The basic difference between private and public blockchain is how they operate. The private blockchain is based on a closed ecosystem and hence is controlled in a certain way. Public blockchain are open to everyone.
 
 # What’s is the difference between blockchain and centralized network?
 The main difference between a centralized network and blockchain is how they are controlled. The blockchain is completely decentralized and doesn’t require a central authority. Inadvertently, it also brings benefits to blockchain such as trust, transparency, immutability and so on.
@@ -135,51 +106,13 @@ The main difference between a centralized network and blockchain is how they are
 # What is a cryptocurrency?
 Cryptocurrency is a digital currency that works without any centralized control. Cryptocurrency powers a lot of blockchain networks out there. They are also known as virtual currencies and differ from the likes of fiat currencies. For example, Bitcoin, Ethereum, and Litecoin are the example of cryptocurrencies.
 
-# Discuss the role of encryption in blockchain?
-Encryption is an age-old technique to protect data from third parties or leak. It is the basics of data security in the modern world. Blockchain also utilizes encryption to good effect. The data before it is sent off to the receiver is encrypted. The received will only be able to unlock it as it is only meant for him. Once the receiver receives it, it is unencrypted and can be used as liked.
-
-Blockchain also uses encryption in other ways. Also, modern blockchain solution tends to improve encryption and provide complete privacy based experience for users.
-
-# How secure is blockchain? Have they even be hacked?
-The blockchain is comparatively secure when compared to other similar technologies right now. However, they are not completely secure as it is vulnerable to a 51% attack. A 51% attack is a way by which a group of miners or organization gains access to the more than 50% of the networking computer power. Once done, they can easily take control and alter transactions in the network which can lead to asset theft and data alteration.
-
-Blockchain platforms are also prone to another form of human errors. The most prominent example is the ETC-ETH fork that happened because a coder deleted some ethereum smart contract code which leads to ETH lock. It became inaccessible which lead to a hard fork in the blockchain.
-
-The 51% attack is theoretically possible but is hardly carried out in the real world as it would require huge computational processing power.
-
-# Why is blockchain more trustworthy?
+# Are blockchain more trustworthy?
 The blockchain is trustworthy because of many reasons. The first reason is the security that blockchain offers. It is the most secure technology solution right now. Next, it is entirely decentralized. This removes the need for a centralized entity and the risks associated with it.
 
 The last feature that makes blockchain more trustworthy is immutability. Data once stored cannot be changed.
 
 # What are the two types of records that Blockchain database support?
-Blockchain database supports transactional and “block” record. Both the records can be accessed without any issues.
-
-# What are the Merkle trees? Are they important?
-Merkle trees is a data structure that is used in cryptography. It is also known as the hash tree. Technically, in the tree, every leaf node is designated with the hash of the data block. The non-leaf node on the other hand stores the cryptographic hash of the child nodes. Hash trees are incredibly efficient in terms of performance and can be used to verify large data structure.
-
-For example, it is not required to transfer the whole block to verify a block.
-
-Note: This is an advanced blockchain interview question.
-
-# What is the difference between the standard ledger and a blockchain ledger?
-The biggest difference between these two type of ledger is the decentralization that they have to offer. Blockchain ledger is decentralized which means that it offers unique capabilities such as trust, immutability, transparency, and security. Standard ledger does carry these features but is limited to certain extent.
-
-As humans create, modify and monitor the standard ledger, there is always a chance of an error creeping in or worse a security breach. Blockchain ledger solves all the problems that standard ledger have by providing a decentralized version.
-
-# What type of records blockchain supports? Is there any restriction for record keeping?
-The blockchain supports has no parity when it comes to recording data or records of any type. This means that blockchain can have multiple use cases for different industry and verticals. Anyone from startups to industries running supply chain management can use blockchain to store data and utilize the power of blockchain to their advantage.
-
-Some of the examples of blockchain record include the following.
-
-Medical records
-Supply chain management records
-Employee records
-Transaction/eCommerce records
-Management records
-Documentation
-Music records
-And so on.
+Blockchain database supports "transactional" and "block" record. Both the records can be accessed without any issues.
 
 # What are the key elements of the blockchain ecosystem? Explain each of them briefly.
 The blockchain has four key elements. They are as follows.
@@ -193,58 +126,22 @@ A Shared ledger is the data structure that is stored in a blockchain’s node ap
 
 One of the good examples includes the Ethereum client where it has a ledger that interacts with other components such as payments, smart contracts etc. Each blockchain has its own way of managing its shared ledger keeping the basics intact.
 
-# What is Node Application? Explain in detail
-Node application is a computer application that a computer needs to be part of the ecosystem. Without the node application, it is not possible for a device to participate in blockchain activity.
-
-There are different node application when it comes to the blockchain. Bitcoin, for example, uses the Bitcoin wallet application to make a computer compatible with the blockchain.
-
-Technically, there is a service overlay network(SON) that interfaces between the blockchain and the computer. The computer needs to use the node application to read and reply in a specific manner,
-
-Not all node application is free from restriction. Some blockchains are stick when allowing a node to join the application. It needs permission to do so.
-
-# What is a Virtual Machine? Explain in detail
-Virtual Machine runs as a part of a node computer. It is a virtual state of a machine that mimics a real machine. It is imaginary and provides certain functionalities in a pre-defined state. Virtual machine also works and don’t have to rely on the host computer or machine. The key point here is abstraction which is used to provide an operating environment for an application or service to work.
-
-All the blockchain have their virtual machine. They are designed and work differently. For example, VM used by Bitcoin and Ethereum are different. Ethereum virtual machine is also more advanced that of Bitcoin. It can stay on an Ethereum node and interact with smart contracts.
-
-# What is Consensus Algorithm?
-Consensus algorithm is also a part of node application. It is used to reach a consensus in the ecosystem. There is no single way to achieve consensus, and that’s why different blockchain environment uses different consensus methods. Bitcoin, for example, uses Proof-of-Work(PoW) consensus algorithm.
-
-The nodes that participate in the blockchain has to use consensus algorithm.
-
-# What are the different types of Consensus Algorithm? Explain each of them briefly.
-There are three main types of consensus algorithm.
-
-Proof-of-Work(PoW)
-Proof of Stake(PoS)
-Delegated Proof of Stake(DPoS)
-Proo-of-Work(PoW): Proof-of-Work(PoW) is used by the most popular cryptocurrencies out there. Bitcoin, Ethereum, and Litecoin use it. It works by solving complex mathematical problems. The hash needs to be solved for the block to be mined. Once it is done, the transaction is validated, and the consensus is made.
-
-Proof-of-Stake(PoS): Proof-of-Stake(PoS) works by staking coins. The nodes need to stake a minimum amount of coins to become part of the consensus network. Once they become part, they actively take part in making decisions on the network. Unlike Proof-of-Work, PoS doesn’t require huge computational power, and hence power.
-
-Delegated Proof-of-Stake(DPoS): Delegated Proof-of-Stake is a centralized approach to a blockchain network. In this consensus method, the stakes choose delegates which in turn validate the transactions.
-
 # Can you share the names of platforms are that are actively developing Blockchain apps?
 There are many organization or platform that are actively improving the blockchain ecosystem. Hyperledger community is one of the leading open source platforms that is working towards developing enterprise-grade blockchain solution.
 
 Ethereum platform is also active in blockchain app development. They do differ in their approach. Ethereum provides developers, organization, and business to create blockchain apps, whereas Hyperledger is creating tools, techniques and other methods to empower the different blockchains.
 
 # What is double spending?
-Double spending is a process through which a digital currency is spent more than once. In other words, it also means a digital currency can be cloned. In blockchain technology, double spending is not possible. However, double spending scenarios are possible if the network is going through a 51% attack.
+Double spending is a process through which a digital currency is spent more than once. In other words, it also means a digital currency can be cloned. In blockchain technology, double spending is not possible.
 
-# What are the main elements of a block?
-There are three main parts of a block.
-
-Hash pointer that points to the previous block. Block 0 doesn’t point to other blocks.
-Timestamp
-Transactions list.
 # What cryptographic algorithms are frequently used in blockchain?
 There are many cryptographic algorithms used in the blockchain. They are as follows:
 
-RSA
-Blowfish
-TripleDES
-AES
+* RSA
+* Blowfish
+* TripleDES
+* AES
+
 # What makes RSA a secure cryptographic algorithm?
 RSA provides state of the security algorithm for applications to use. It stands for Riverst, Shamir, and Adelman. They are the developer of this algorithm. RSA offers public-key encryption and hence is applicable in a variety of use-cases including blockchain. It is also the first encryption that is widely used for signing data and encryption. It works by using both private and public key.
 
