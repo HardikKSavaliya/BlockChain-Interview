@@ -1,7 +1,9 @@
 ## Private-BlockChain-Interview
 
 # What is Blockchain?
-The blockchain is a decentralized distributed ledger technology. The purpose behind of is to provide a network of transparency, immutability, and trust. The blockchain is open source and provides equal opportunities for anyone to improve and implement it in their system.
+The blockchain is a decentralized distributed ledger technology(DLT). The purpose behind of is to provide a network of transparency, immutability, and trust. The blockchain is open source and provides equal opportunities for anyone to improve and implement it in their system.
+
+Blockchain is a system of network of multiple nodes or computers which acts as a distributed network over the internet, worldwide. Each node has the authority to make a transaction, verify a transaction, receive a transaction and create a block.
  
 # What do you mean by blocks in the Blockchain technology?
 A block in the Blockcahin is nothing but just a list of records. When these lists are joined with each other, they are known as Blockchain.
