@@ -57,6 +57,11 @@ Yes. The blocks are for proving that transactions existed at a particular time. 
 # what the mean of address in blockchain(as aspect of bitcoin)?
 These are usually used to receive and send transactions on the network. Associate degree address may be a string of alphanumerical characters.
 
+# Type of addresses(as aspect of bitcoin)?
+* P2PKH-Pay To Public Key Hash(start with 1)
+* P2SH-Pay To Script Hash(start with 3)
+* Bech32-(start with bc1)
+
 # If wrong address will be putted as recipient address. what happen?
 Whenever you paste an address in your bitcoin wallet, it checks the prefix and calculates the checksum. If it doesn’t match, it rejects the address. This makes it impossible to send funds to a wrong address due to a typing error.
 
