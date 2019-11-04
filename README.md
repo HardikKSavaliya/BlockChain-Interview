@@ -3,10 +3,13 @@
 # What is Blockchain?
 The blockchain is a decentralized distributed ledger technology(DLT). The purpose behind of is to provide a network of transparency, immutability, and trust. The blockchain is open source and provides equal opportunities for anyone to improve and implement it in their system.
 
-Blockchain is a system of network of multiple nodes or computers which acts as a distributed network over the internet, worldwide. Each node has the authority to make a transaction, verify a transaction, receive a transaction and create a block.
+Blockchain is a system of multiple nodes which acts as a distributed network over the internet, all over the world each node has the authority to make a transaction, verify a transaction, receive a transaction and create a block.
  
-# What do you mean by blocks in the Blockchain technology?
+# What do you mean by blocks in the blockchain technology?
 A block in the Blockcahin is nothing but just a list of records. When these lists are joined with each other, they are known as Blockchain.
+
+# What do you mean by node in the blockchain technology?
+A blockchain exists out of blocks of data. These blocks of data are stored on nodes (compare it to small servers). Nodes can be any kind of device (mostly computers, laptops or even bigger servers). Nodes form the infrastructure of a blockchain. All nodes on a blockchain are connected to each other and they constantly exchange the latest blockchain data with each other so all nodes stay up to date. They store, spread and preserve the blockchain data, so theoretically a blockchain exists on nodes. A full node is basically a device (like a computer) that contains a full copy of the transaction history of the blockchain.
 
 # What are the various types of Blockchains?
 * Public - A public blockchain is a non-restrictive, permission-less distributed ledger system. (e.g. Bitcoin, Ethereum,..)
