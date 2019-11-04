@@ -30,7 +30,7 @@ A blockchain exists out of blocks of data. These blocks of data are stored on no
  | Field |	Description |	Size (Bytes) |
  | ------ | ------------ | ------|
  | Magic no |  value always 0xD9B4BEF9 |	4 bytes |
- | Blocksize |	number of bytes following up to end of block  |	4 bytes |
+ | Blocksize |	number of bytes following up to end of block  |	4 bytes and onwords(up to 2 GB)|
  | Blockheader |	consists of 6 items  |	80 bytes |
  | Transaction counter | positive integer VI = VarInt |	1 - 9 bytes |
  | transactions	| list of transactions	 | x number of transactions |
