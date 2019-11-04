@@ -151,11 +151,6 @@ A blind signature is an essential part of cryptography where the information is 
 # Can RSA be attacked? If so, how?
 Yes, hackers can attack RSA. However, being attacked is not equal to weak protection. It is just the methods that can be used to attack it and take a chance to break it. There are two ways, one can attack RSA, i.e., brutal force and mathematical attacks.
 
-# What are the benefits of blockchain? Explain it from your viewpoint and understanding.
-Blockchain has many benefits. First of all, it provides instant and secure online transactions. It also uses a decentralized ledger system which provides transparency and verifiability to new heights. It also means that no one can alter the data.
-
-Overall, the use of blockchain further improves the security and ensure that the business doesn’t have to spend too much money in making their security strong. Blockchain also enables business and startups to reach a global audience without worrying about geographical restrictions. Currently, it is breeding innovation in almost every sector out there.
-
 #  What are the key principles that need to be followed to make blockchain secure?
 Even though blockchain is secure, it still needs to be implemented correctly. The following principles need to be followed for proper implementation.
 * Auditing
@@ -176,43 +171,6 @@ The blockchain is going to revolutionize our daily life. It has the potential to
 
 Healthcare, for example, will also benefit from it by providing a place to store information for seamless access by authorities and patients.
 
-# What is the difference between blockchain and distributed ledger?
-Distributed ledger is a database which consists of nodes that are connected in a network. It is used to store data where each node plays a crucial role by having a copy of the data itself. Blockchain, on the other hand, is a type of distributed ledger platform which makes use of it and provides an extra layer of accuracy and security to the whole network.
-
-# What is Blockchain Technology?
-The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value.
-
-# What do you mean by blocks in the Blockchain technology?
-A block in the Blockcahin is nothing but just a list of records. When these lists are joined with each other, they are known as Blockchain. For e.g. – an organization has 100 ledger books the combination of which is known as Blockchain and a single ledger would be known as a block.
-
-# How does a block is recognized in the Blockchain approach?
-Every block in this online ledger mainly consists of a hash pointer which acts as a link to the block which is previous to it, transaction data and in fact a stamp of time.
-
-# Is there any network specific conditions for using Blockchain technology in an organization?
-No, there is no such specific condition on using it. However, the network must be a peer-to-peer network under the worried protocols. It really validates the new block simply and helps enterprises to keep up the pace in this matter without capitalizing in third-party applications.
-
-# Is it possible to modify the data once it is written in a block?
-No, it is not possible to do so. In case any customization is required, the organization simply has to remove the information from all other blocks too. It is because of no other reason than this, data must be given the extreme care of while using this method.
-
-# What type of records can be kept in Blockchain? Is there any restriction on same?
-There is no restriction of keeping records in the Blockchain approach. It must be noted that the record keeping is not just limited to these applications only.
-The common types of records that can be kept on them are:
-1. Records of medical transactions
-2. Identity management
-3. Transaction processing
-4. Events related to organizations,
-5. Management activities
-6. Documentation
-
-# What is encryption? What is its role in Blockchain?
-Encryption is mainly a method that helps organizations to keep their data secure. In this method, the data is encoded up to some extent before it is sent out of a network by the sender. The only receiver can know how to decode the same. In Blockchain, this method is useful because it simply adds more to the overall security and validity of blocks and help to keep them secure.
-
-# What exactly do you know about the security of a block?
-A block cannot be customized by all the users on a network. Therefore it provides an excellent level of security. Additionally, every block is secured using cryptography that is another vote in this matter. Thus one needs not to worry about the security of data that is present in a block.
-
-# Why Blockchain is a trusted approach?
-Blockchain can be trusted due to several reasons. The very first thing is its compatibility with other business applications because of its open-source nature. Second one is its security. As it was intended for online transactions, the developers have paid special attention in keeping up the pace when it comes to its security. It really doesn’t matter what type of business one owns, Blockchain can easily be considered.
-
 # What is Secret Sharing? Does it have any benefit in Blockchain technology?
 It is a well-understood that security matters a lot in digital transactions. Secret sharing in Blockchain technology is an approach that divides secret or personal information into different units and sent them to the users on the network. The original information can only be combined when a member to whom a share of the secret is allocated agree to combine them together with others. There are several security-related advantages it can offer in Blockchain technology.
 
@@ -232,9 +190,6 @@ Transparency data is embedded within the network as a whole, by definition it is
 
 # How does Bitcoin use Blockchain?
 A transaction is a transfer of value between Bitcoin wallets that gets included in the blockchain. Bitcoin wallets keep a secret piece of data called a private key or seed, which is used to sign transactions, providing a mathematical proof that they have come from the owner of the wallet.
-
-# Is Blockchain an incorruptible ledger?
-Blockchain ledger cannot be corrupted as per the developer’s claim.
 
 # What are the business benefits of blockchain?
 Blockchain consensus mechanisms provide the benefits of a consolidated, consistent dataset with reduced errors, near-real-time reference data, and the flexibility for participants to change the descriptions of the assets they own.
