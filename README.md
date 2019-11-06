@@ -235,3 +235,5 @@ below is some of most popular
 * BFT (Byzantine Fault Tolerance)- Hyperledger, Stellar, Ripple,.
 and many more like PBFT,FBA, DAGs,..
 
+# what is IBD?
+IBD stands for initial block download. it refers to the process where nodes synchronize themselves to the network by downloading blocks that are new to them. This will happen when a node is far behind the tip of the best block chain. In the process of IBD, a node does not accept incoming transactions nor request mempool transactions.
