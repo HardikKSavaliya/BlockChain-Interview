@@ -237,3 +237,6 @@ and many more like PBFT,FBA, DAGs,..
 
 # what is IBD?
 IBD stands for initial block download. it refers to the process where nodes synchronize themselves to the network by downloading blocks that are new to them. This will happen when a node is far behind the tip of the best block chain. In the process of IBD, a node does not accept incoming transactions nor request mempool transactions.
+
+# what is mainnet and testnet?(as aspect of bitcoin)
+Mainnet is the main ledger that everybody operates on. If somebody is talking about the value of Bitcoin, she refers to this particular network and all Bitcoins stored there have real value. while test node is intended for test transactions and the development process. 
