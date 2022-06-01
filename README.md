@@ -240,3 +240,6 @@ IBD stands for initial block download. it refers to the process where nodes sync
 
 # what is mainnet and testnet?(as aspect of bitcoin)
 Mainnet is the main ledger that everybody operates on. If somebody is talking about the value of Bitcoin, she refers to this particular network and all Bitcoins stored there have real value. while test node is intended for test transactions and the development process. 
+
+# Is it possible that if-else can be used on contract level?
+No, if-else cant allowed direct inside of contract. must needs to create an funtion for that.
