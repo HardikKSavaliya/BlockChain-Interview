@@ -20,7 +20,7 @@ A blockchain exists out of blocks of data. These blocks of data are stored on no
 # What was the difference between blockchain and tradiditonal database?
   | Blockchain | Traditional Database |
   | -----------| ---------------------|
-  | Centralized| Decentralized        |
+  | Decentralized|   Centralized      |
   | only insert operations | Data manipulation is possible |
   | stored in block | stored in table |
   | Full Replication of block on every peer | Master Slave Multi-Master |
