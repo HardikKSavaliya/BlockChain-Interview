@@ -13,7 +13,7 @@ A blockchain exists out of blocks of data. These blocks of data are stored on no
 
 # What are the various types of Blockchains?
 * Public - A public blockchain is a non-restrictive, permission-less distributed ledger system. (e.g. Bitcoin, Ethereum,..)
-* Private - A private blockchain is a restrictive or permission blockchain operative only in a closed network. (e.g. Hyper Ledger, Corda,...)
+* Private - A private blockchain is a restrictive or permission blockchain operative only in a closed network. (e.g. Hyperledger, Corda,...)
 * Consortium - A consortium blockchain is a semi-decentralized type where more than one organization manages a blockchain network. (e.g. Energy Web Foundation, R3,..)
 * Hybrid - A hybrid blockchain is a combination of the private and public blockchain. It uses the features of both types of blockchains that is one can have a private permission-based system as well as a public permission-less system. (e.g. Dragonchain,..)
 
